@@ -3,7 +3,7 @@ import React from "react";
 function Contactus() {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4">Contact Us</h2>
+      <h2 className="text-center mb-4">Make your Complaints</h2>
 
       <form>
         <div className="form-group">
@@ -29,7 +29,7 @@ function Contactus() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="message">Your Message</label>
+          <label htmlFor="message">Issue</label>
           <textarea
             className="form-control"
             id="message"

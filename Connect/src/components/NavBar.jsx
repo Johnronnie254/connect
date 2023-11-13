@@ -34,7 +34,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link enabled" to="/Contactus">
-                  Contact Us
+                  Complaints
                 </Link>
               </li>
               <li className="nav-item dropdown">
