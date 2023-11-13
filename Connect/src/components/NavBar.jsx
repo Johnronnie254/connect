@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <>
-      <nav classNameName="navbar navbar-expand-lg navbar-light bg-light">
-        <div classNameName="container-fluid">
-          <a classNameName="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
             Connect
-          </a>
+          </Link>
           <button
-            classNameName="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -17,104 +18,102 @@ function NavBar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span classNameName="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            classNameName="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul classNameName="navbar-nav me-auto mb-2 mb-lg-0">
-              <li classNameName="nav-item">
-                <a classNameName="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" to="/">
                   Home
-                </a>
+                </Link>
               </li>
-              <li classNameName="nav-item">
-                <a classNameName="nav-link" href="#">
+              <li className="nav-item">
+                <Link className="nav-link" to="/Aboutus">
                   About Us
-                </a>
+                </Link>
               </li>
-              <li classNameName="nav-item">
-                <a
-                  classNameName="nav-link enabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="false"
-                >
+              <li className="nav-item">
+                <Link className="nav-link enabled" to="/Contactus">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  to="/services"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Services
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/utilities">
                       Utilities
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/housing-services">
                       Housing Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Grocerry and Food Services
-                    </a>
+                    <Link className="dropdown-item" to="/grocery-services">
+                      Grocery and Food Services
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/healthcare-services">
                       Healthcare Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/educational-services">
                       Educational Institutions
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link
+                      className="dropdown-item"
+                      to="/transportation-services"
+                    >
                       Transportation Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/community-services">
                       Community Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/financial-services">
                       Financial Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/emergency-services">
                       Emergency Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/government-services">
                       Government Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Entertainment and Leisure:
-                    </a>
+                    <Link
+                      className="dropdown-item"
+                      to="/entertainment-services"
+                    >
+                      Entertainment and Leisure
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="/technology-services">
                       Technology Services
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
