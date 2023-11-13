@@ -4,4 +4,4 @@ const ServiceContainer = () => {
   return <Services />;
 };
 
-export default ServiceContainers;
+export default ServiceContainer;
