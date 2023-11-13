@@ -11,5 +11,7 @@
   text-align: center;
 }
 .containerstyle p {
-  margin-bottom: 400px;
+  margin-bottom: 200px;
+  font-size: 17px;
+  font-weight: bold;
 }
