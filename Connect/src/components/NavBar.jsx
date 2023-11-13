@@ -55,20 +55,62 @@ function NavBar() {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item" href="#">
-                      Action
+                      Utilities
                     </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Another action
+                      Housing Services
                     </a>
                   </li>
                   <li>
-                    <hr class="dropdown-divider" />
+                    <a class="dropdown-item" href="#">
+                      Grocerry and Food Services
+                    </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Something else here
+                      Healthcare Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Educational Institutions
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Transportation Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Community Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Financial Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Emergency Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Government Services
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Entertainment and Leisure:
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Technology Services
                     </a>
                   </li>
                 </ul>
