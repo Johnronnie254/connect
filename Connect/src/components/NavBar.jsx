@@ -6,7 +6,7 @@ function NavBar() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Connect
           </a>
           <button
             class="navbar-toggler"
@@ -28,7 +28,17 @@ function NavBar() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Link
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link enabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="false"
+                >
+                  Contact Us
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -40,7 +50,7 @@ function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Services
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -62,16 +72,6 @@ function NavBar() {
                     </a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
               </li>
             </ul>
             <form class="d-flex">
